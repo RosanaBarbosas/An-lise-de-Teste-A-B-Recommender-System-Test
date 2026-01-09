@@ -43,4 +43,4 @@ Os resultados indicam que o novo sistema de recomendação **não atingiu o obje
 * **Recomendação:** Não implementar o novo sistema na forma testada e investigar possíveis atritos na jornada do usuário no grupo B.
 
 ---
-*Projeto desenvolvido como parte do curso de Análise de Dados.*
+*Projeto desenvolvido como parte do Bootcamp de Análise de Dados.*
