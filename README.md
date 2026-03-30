@@ -1,50 +1,33 @@
-# 📊 A/B Test Analysis — Recommendation System
+# 📊 A/B Test Analysis — Recommendation System Impact on User Conversion
 
 ## 📌 Project Description
-This project consists of a complete analysis of an A/B test conducted by an international e-commerce platform to evaluate the impact of a new recommendation system on user behaviour. 
+This project presents a full-scale analysis of an A/B test conducted by an international e-commerce platform to evaluate the impact of a new recommendation system on user behaviour across the purchase funnel.
 
-The experiment compared a control group (A) with a test group (B), analysing conversion metrics across different stages of the purchase funnel within a 14-day window after user registration.
+The analysis simulates a real-world product decision scenario, where data is used to determine whether a new feature should be implemented, based on its impact on user conversion, engagement, and overall business performance.
 
-The study covers the full analytical process, from data exploration and preprocessing to statistical evaluation, taking into account relevant factors such as seasonality, group imbalance, and experiment integrity.
-
----
-
-## 🎯 Project Objective
-Evaluate whether the introduction of a new recommendation system leads to improvements in user conversion rates, specifically in the following funnel stages:
-- product page view (`product_page`)  
-- add to cart (`product_cart`)  
-- purchase (`purchase`)  
-
-The success criterion was defined as a minimum 10% increase in conversion rates for the test group compared to the control group.
+Special attention was given to experiment validity, including group integrity, seasonality effects, and statistical significance.
 
 ---
 
-## 🧪 Methodology
-- Initial data exploration and cleaning  
-- Data type conversion and filtering based on experiment scope  
-- Exploratory Data Analysis (EDA) to:
-  - evaluate the conversion funnel  
-  - verify group integrity  
-  - identify seasonality and unusual patterns  
-- Calculation of conversion rates by group and funnel stage  
-- Data visualisation using charts  
-- Statistical testing (z-test for proportion comparison)  
-- Interpretation of results based on statistical and business criteria  
+## 🎯 1. Project Objective
+- Evaluate the impact of a new recommendation system on user conversion rates  
+- Analyse performance across key funnel stages (product view, add to cart, purchase)  
+- Determine whether the new feature should be implemented  
+- Support product and business decision-making using data  
 
 ---
 
-## 📈 Results
-The results indicate that the new recommendation system did not improve conversion rates at any stage of the funnel. 
+## 📈 2. Results
+- The test group underperformed compared to the control group across all funnel stages  
+- No statistically significant improvement was observed in conversion rates  
+- The expected minimum uplift of 10% was not achieved  
+- Results suggest the recommendation system may negatively impact user behaviour  
 
-The test group (B) underperformed compared to the control group (A) across all analysed metrics, failing to achieve the minimum 10% improvement defined as the success criterion, with no statistically significant evidence of improvement.
-
-Additionally, the experiment was conducted during a seasonal end-of-year period, which limits the generalisation of results to regular periods. While no user overlap between groups ensured the robustness of the statistical test, it did not change the overall conclusion.
-
-**Recommendation:** Do not implement the new recommendation system based on the current results.
+👉 **Final Recommendation:** Do not implement the new system based on current results  
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🛠️ 3. Tools & Technologies
 - Python  
 - Pandas  
 - NumPy  
@@ -54,24 +37,34 @@ Additionally, the experiment was conducted during a seasonal end-of-year period,
 
 ---
 
-## 📚 What I Learned (Skills & Competencies)
-- End-to-end A/B test analysis from an analytical perspective  
-- Proper definition of conversion metrics  
-- Decision-oriented exploratory data analysis  
-- Identification of methodological risks (seasonality, group imbalance)  
-- Application of statistical tests for proportion comparison  
-- Interpretation of statistical results with a business focus  
-- Clear communication of data-driven conclusions  
+## 📚 4. What I Learned (Skills & Competencies)
+- Designed and evaluated A/B tests from a product analytics perspective  
+- Defined and analysed conversion funnel metrics  
+- Applied statistical hypothesis testing (z-test for proportions)  
+- Identified experiment risks such as seasonality and sample imbalance  
+- Interpreted results to support product and business decisions  
+- Strengthened data storytelling and stakeholder-oriented communication  
 
 ---
 
-## 🔧 Improvements to be Made
-Yes. Possible improvements include:
-- Replicating the experiment during non-seasonal periods  
-- Increasing the sample size of the test group for higher statistical power  
-- Evaluating additional metrics such as Average Order Value (AOV) and retention  
-- Testing the recommendation system across different user segments  
-- Implementing multivariate or sequential testing approaches  
+## 🔧 5. Improvements to be Made
+- Run the experiment in non-seasonal periods to reduce bias  
+- Increase sample size to improve statistical power  
+- Analyse additional KPIs (e.g., retention, AOV, user lifetime value)  
+- Segment users to understand differential impact across audiences  
+- Test alternative recommendation strategies or models  
+- Implement sequential or multivariate testing for deeper insights  
+
+---
+
+## 🧠 Methodology
+1. Data cleaning and preprocessing  
+2. Validation of experiment design (group separation, sample size, timeframe)  
+3. Exploratory Data Analysis (EDA)  
+4. Conversion funnel analysis  
+5. Calculation of conversion rates per group  
+6. Statistical testing using z-test for proportions  
+7. Interpretation of results based on statistical significance and business impact  
 
 ---
 
@@ -81,76 +74,73 @@ https://github.com/RosanaBarbosas/An-lise-de-Teste-A-B-Recommender-System-Test.g
 
 ---
 
-# 📊 Análise de Teste A/B — Sistema de Recomendação
+# 📊 Análise de Teste A/B — Impacto de Sistema de Recomendação na Conversão
 
 ## 📌 Descrição do Projeto
-Este projeto consiste na análise completa de um teste A/B realizado por uma loja online internacional com o objetivo de avaliar o impacto de um novo sistema de recomendação sobre o comportamento dos usuários. O experimento comparou um grupo de controle (A) com um grupo de teste (B), analisando métricas de conversão ao longo de diferentes etapas do funil de compra, dentro de uma janela de até 14 dias após o cadastro dos usuários.
+Este projeto apresenta uma análise completa de um teste A/B realizado por uma plataforma internacional de e-commerce com o objetivo de avaliar o impacto de um novo sistema de recomendação no comportamento dos usuários ao longo do funil de compra.
 
-O estudo abrangeu desde a exploração e preparação dos dados até a avaliação estatística dos resultados, considerando particularidades relevantes como sazonalidade, desbalanceamento entre grupos e integridade do experimento.
+A análise simula um cenário real de decisão de produto, no qual os dados são utilizados para determinar se uma nova funcionalidade deve ser implementada, considerando seu impacto na conversão, engajamento e performance do negócio.
 
----
-
-## 🎯 Objetivo do Projeto
-Avaliar se a introdução de um novo sistema de recomendação resulta em melhorias nas taxas de conversão dos usuários, especificamente nas etapas de:
-- visualização de página de produto (`product_page`);
-- adição ao carrinho (`product_cart`);
-- compra (`purchase`).
-
-O critério de sucesso definido foi um aumento mínimo de 10% nas taxas de conversão do grupo de teste em relação ao grupo de controle.
+Foi dada atenção especial à validade do experimento, incluindo integridade dos grupos, efeitos de sazonalidade e significância estatística.
 
 ---
 
-## 🧪 Metodologia
-- Exploração inicial e limpeza dos dados;
-- Conversão de tipos e filtragem conforme o escopo do experimento;
-- Análise Exploratória de Dados (EDA) para:
-  - avaliação do funil de conversão;
-  - verificação de integridade dos grupos;
-  - identificação de sazonalidade e comportamentos atípicos;
-- Cálculo das taxas de conversão por grupo e por etapa do funil;
-- Visualização dos resultados por meio de gráficos;
-- Aplicação de testes estatísticos (z-test para comparação de proporções);
-- Interpretação dos resultados considerando critérios estatísticos e de negócio.
+## 🎯 1. Objetivo do Projeto
+- Avaliar o impacto de um novo sistema de recomendação nas taxas de conversão  
+- Analisar o desempenho nas principais etapas do funil (visualização, carrinho, compra)  
+- Determinar se a nova funcionalidade deve ser implementada  
+- Apoiar a tomada de decisão de produto e negócio com base em dados  
 
 ---
 
-## 📈 Resultados
-Os resultados indicaram que o novo sistema de recomendação não apresentou melhorias nas taxas de conversão em nenhuma das etapas avaliadas do funil. O grupo de teste (B) apresentou desempenho inferior ao grupo de controle (A) em todas as métricas analisadas, sem atingir o aumento mínimo de 10% definido como critério de sucesso e sem evidências estatísticas significativas.
+## 📈 2. Resultado
+- O grupo de teste apresentou desempenho inferior ao grupo de controle em todas as etapas do funil  
+- Não foi identificada melhoria estatisticamente significativa nas taxas de conversão  
+- O aumento mínimo de 10% não foi atingido  
+- Os resultados indicam possível impacto negativo do sistema de recomendação no comportamento dos usuários  
 
-Além disso, o experimento foi conduzido durante um período sazonal de fim de ano, o que limita a generalização dos resultados para períodos regulares. A ausência de interseção de usuários entre os grupos garantiu a robustez do teste estatístico, mas não alterou a conclusão final.
-
-**Recomendação:** não implementar o novo sistema de recomendação com base nos resultados obtidos.
-
----
-
-## 🛠️ Ferramentas Utilizadas
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Statsmodels
-- Jupyter Notebook
+👉 **Recomendação final:** Não implementar o novo sistema com base nos resultados atuais  
 
 ---
 
-## 📚 O que eu aprendi (Habilidades e Competências)
-- Condução completa de um teste A/B do ponto de vista analítico;
-- Definição correta de métricas de conversão;
-- Análise exploratória orientada à tomada de decisão;
-- Identificação de riscos metodológicos (sazonalidade, desbalanceamento);
-- Aplicação de testes estatísticos para comparação de proporções;
-- Interpretação de resultados estatísticos com foco em negócio;
-- Comunicação clara de conclusões baseadas em dados.
+## 🛠️ 3. Ferramentas Utilizadas
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Statsmodels  
+- Jupyter Notebook  
 
 ---
 
-## 🔧 Existem melhorias a serem feitas?
-Sim. Algumas melhorias possíveis incluem:
-- Replicar o experimento em períodos não sazonais;
-- Aumentar o tamanho da amostra do grupo de teste para maior poder estatístico;
-- Avaliar métricas adicionais, como valor médio de pedido (AOV) ou retenção;
-- Testar o sistema de recomendação em diferentes segmentos de usuários;
-- Implementar testes multivariados ou experimentos sequenciais.
+## 📚 4. O que eu aprendi (Habilidades e Competências)
+- Condução e análise de testes A/B sob a perspectiva de produto  
+- Definição e análise de métricas de funil de conversão  
+- Aplicação de testes estatísticos (z-test para proporções)  
+- Identificação de riscos experimentais (sazonalidade, desbalanceamento)  
+- Interpretação de resultados com foco em decisão de negócio  
+- Comunicação clara de insights para stakeholders  
+
+---
+
+## 🔧 5. Melhorias a serem feitas
+- Repetir o experimento em períodos não sazonais  
+- Aumentar o tamanho da amostra para maior poder estatístico  
+- Analisar métricas adicionais (retenção, ticket médio, LTV)  
+- Segmentar usuários para entender impactos diferentes  
+- Testar variações do sistema de recomendação  
+- Aplicar testes multivariados ou sequenciais  
+
+---
+
+## 🧠 Metodologia
+1. Limpeza e pré-processamento dos dados  
+2. Validação do experimento (integridade dos grupos, amostra, período)  
+3. Análise exploratória (EDA)  
+4. Análise do funil de conversão  
+5. Cálculo das taxas de conversão por grupo  
+6. Testes estatísticos (z-test para proporções)  
+7. Interpretação dos resultados com base estatística e de negócio  
 
 ---
 
